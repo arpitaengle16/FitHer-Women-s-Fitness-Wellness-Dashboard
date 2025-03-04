@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(188, 215, 224);
+    margin: 0;
+    padding: 0;
+}
+ul{
+    text-align: center;
+    justify-content: right;
+    font-size :20px;
+    font-weight: bold;
+    text-shadow: whitesmoke;
+}
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        gap: 20px;
+        align-items:center;
+        justify-content: flex-start;
+        
+    }
+    
+    h1{
+        color: rgb(228, 161, 172);
+        position: relative;
+        font-weight: bolder;
+        text-decoration:solid;
+        text-decoration: underline;
+    }
+    h2{
+        color:rgb(155, 63, 79);
+    }
+    h3{
+        color:rgb(155, 63, 79);
+    }
+    p{
+        color:rgb(6, 6, 73);
+         font-weight: bold;
+    }
